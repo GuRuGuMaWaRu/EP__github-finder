@@ -15,9 +15,6 @@ const Navbar = ({ icon, title }) => {
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>
-          <Link to="/user/:login">User</Link>
-        </li>
       </ul>
     </nav>
   );
